@@ -1,0 +1,31 @@
+{
+  "name": "fail",
+  "version": "0.0.0",
+  "description": "Generic failure detector for connections",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --ui exports --reporter spec --slow 2000ms --bail test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mixu/fail.git"
+  },
+  "keywords": [
+    "failure",
+    "fault",
+    "detect",
+    "detector",
+    "distributed"
+  ],
+  "author": "Mikito Takada <mikito.takada@gmail.com>",
+  "license": "BSD",
+  "dependencies": {
+    "microee": "0.0.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.7.0"
+  }
+}
